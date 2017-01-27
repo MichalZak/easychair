@@ -68,6 +68,7 @@
     
     <hr>
 
+
     <!-- Footer -->
     {% include('_partial/footer.njk') %}
     
@@ -92,7 +93,9 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.min.css" />
      <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
     <!-- Disqus Comments -->
+    {% block comments %}
 
+    {% endblock %}
 
 
     <!-- Google Analytics -->

@@ -7,20 +7,32 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "pouch",
-    "couch",
-    "node",
-    "express"
+    "blog",
+    "couchdb",
+    "pouchdb",
+    "nodejs",
+    "express",
+    "ionic2"
   ],
-  "author": "Michal Zak",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalZak/easychair.git"
+  },
+  "author": "Michal Zak <michalzak@gmail.com> (http://mzlabs.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichalZak/easychair/issues"
+  },
+  "homepage": "https://mzlabs.net",
   "dependencies": {
+    "brace": "^0.9.1",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.1",
     "corser": "^2.0.1",
     "cradle": "^0.7.1",
     "express": "^4.14.0",
     "express-pouchdb": "^2.1.4",
+    "moment": "^2.17.1",
     "morgan": "^1.7.0",
     "nunjucks": "^3.0.0",
     "pouchdb": "^6.1.1",
